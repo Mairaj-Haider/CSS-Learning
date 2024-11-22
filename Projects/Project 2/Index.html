@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color System And Background</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #background{
+            color: rgba(255, 0, 0, 0.8);
+            background-color: orange;
+        }
+        #main{
+            height: 500px;
+            width: 100%;
+            background-color: cyan;
+        }
+        #forimage{ /*This is done by using shorthand method*/
+            background-color: deeppink; background-image: url(github_PNG23.png); background-repeat: no-repeat; background-position: center; height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <bold>Q1. Create a div bar with text and background color with opacity</bold>
+    <div id="background">This is a red color text with 0.8 opacity and background color is orange</div>
+    <hr><br>
+
+    <bold>Q2. Change the color of the main content</bold>
+    <header>This is a header</header>
+    <main id="main">This is a main and im setting its color to cyan and height to 500px. the header and footer has nothing to do here it is just for understanding</main>
+    <footer>This is a footer</footer>
+    <hr><br>
+
+    <bold>Q3. Add background image to 1 div</bold>
+    <div id="forimage">This is a Github logo</div>
+
+</body>
+</html>
