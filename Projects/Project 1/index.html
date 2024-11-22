@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Property</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        #heading{/*this is internal color for div*/
+            color: brown;
+        }
+        #color_div{
+            color: orange;
+        }
+        .h2{
+            color: purple;
+        }
+        p{
+            color: cyan;
+        }
+        #first, #second{
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+    <bold>Q1. Create a heading and set a color to red</bold>
+    <h1 style="color: red;">This is a heading in red color</h1>
+    <hr>
+
+    <bold>Q2. Create a div with id #heading, include css using all 3 ways line, style tag and external and observe priority</bold>
+    <!--added blue color to heading in external color and brown in internal color but it's showing in hotpink because inline color have highest priority-->
+    <div id="heading" style="color: hotpink;">This is a div and I applied three colors to this in three diffrent ways</div>
+    <hr>
+
+    <bold>Q3. Create a div, paragraph, heading and use id selector, element selector and class seletor for them</bold><br><br>
+
+    <div id="color_div">This is Orange color using id selector</div>
+    <h2>This is Purple color using class selector</h2>
+    <p>This is Cyan color using element selector </p>
+    <hr>
+
+    <bold>Q4. Create 2 divs with id first and second and define color for both using group selector</bold>
+    <div id="first">This line and second line color is gold using group selector</div>
+    <div id="second">This line and first line color is gold using group selector</div>
+</body>
+</html>
