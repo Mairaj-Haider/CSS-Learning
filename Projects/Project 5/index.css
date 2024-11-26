@@ -1,0 +1,49 @@
+*{
+    margin: 0; padding: 0;
+}
+header{
+    background-color: aquamarine;
+    height: 25px;
+    
+}
+.bar{
+    margin: 50px;
+    text-decoration: none;
+    font-family: sans-serif ;
+}
+nav{
+    padding: 5px;
+}
+#radius{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    display: inline-block;
+}
+#container{
+    border: 2px solid black;
+    margin-right: 80%;
+}
+#fixed{
+    position: fixed;
+    margin: 5px;
+}
+#zindex{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    margin-left: 15%;
+    z-index: 2;
+    margin-top: -3%;
+}
+footer{
+    background-color: cornflowerblue;
+    position: fixed;
+    bottom: 1px;
+}
