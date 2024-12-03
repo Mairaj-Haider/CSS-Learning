@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+}
+
+:root{
+    background: url(bg.webp);
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main-container{
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    height: 50%;
+    width: 20%;
+    border-radius: 10px;
+    padding: 40px;
+    
+}
+
+.login{
+    display: flex;
+    justify-content: center;   
+}
+
+h1{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 2.5em;
+    padding: 5px;
+    color: #fff;
+}
+
+.user{
+    display: flex;
+    justify-content: center;
+    padding-top: 22px;
+}
+
+.input1{
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    justify-content: center;
+    margin-right: -18px;
+    font-size: 15px;
+    padding-left: 15px;
+    background-color: transparent;
+    border: none;
+    
+}
+
+.user input::placeholder{
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.user i{
+   position: relative;
+   left: -16px;
+   bottom: -10px;
+   font-size: 18px;
+   color: #fff;
+   
+}
+
+.pass{
+    display: flex;
+    justify-content: center;
+    padding-top: 22px;
+}
+
+.input2{
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    justify-content: center;
+    margin-right: -18px;
+    font-size: 15px;
+    padding-left: 15px;
+    background-color: transparent;
+    
+}
+
+.pass input::placeholder{
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.pass i{
+   position: relative;
+   left: -16px;
+   bottom: -10px;
+   font-size: 18px;
+   color: #fff;
+   
+}
+
+.sub{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+.check input{
+    margin-right: 8px;
+}
+
+.forget a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.submit{
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.dont{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.dont a{
+    font-weight: 700;
+    padding-left: 3px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.dont a:hover{
+    text-decoration: underline;
+}
+
+@media(max-width: 1400px){
+    .main-container{
+        width: 22%;
+    }
+}
+
+@media(max-width: 1300px){
+    .main-container{
+        width: 25%;
+    }
+}
+
+@media(max-width: 1150px){
+    .main-container{
+        width: 28%;
+    }
+}
+
+@media(max-width: 1000px){
+    .main-container{
+        width: 31%;
+    }
+}
+
+@media(max-width: 900px){
+    .main-container{
+        width: 34%;
+    }
+}
+
+@media(max-width: 790px){
+    .main-container{
+        width: 37%;
+    }
+}
+
+@media(max-width: 700px){
+    .main-container{
+        width: 40%;
+    }
+}
+
+@media(max-width: 650px){
+    .main-container{
+        width: 43%;
+    }
+}
+
+@media(max-width: 590px){
+    .main-container{
+        width: 47%;
+    }
+}
+
+@media(max-width: 540px){
+    .main-container{
+        width: 51%;
+    }
+}
+
+@media(max-width: 500px){
+    .main-container{
+        width: 55%;
+    }
+}
+
+
+@media(max-width: 470px){
+    .main-container{
+        width: 60%;
+    }
+}
+
+@media(max-width: 430px){
+    .main-container{
+        width: 65%;
+    }
+}
+
+@media(max-width: 380px){
+    .main-container{
+        width: 70%;
+    }
+}
+
+@media(max-width: 330px){
+    .main-container{
+        width: 85%;
+    }
+}
+
+@media(max-width: 320px){
+    .main-container{
+        width: 90%;
+    }
+
+    .check{
+        display: none;
+    }
+    .sub{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 300px){
+    .dont{
+        flex-wrap: wrap;
+        color: transparent;
+    }
+    
+}
+
+@media(max-width: 250px){
+    .main-container{
+        width: 100%;
+    }
+
+    .user i{
+        display: none;
+    }
+
+    .pass i{
+        display: none;
+    }
+}
